@@ -1,4 +1,32 @@
+// Method 1 :
+//______________________________________________________________
+
+// Time Complexity : Exponential
+
+// Fibonacci Series using Recursion
+#include <bits/stdc++.h>
+using namespace std;
+ 
+int fib(int n)
+{
+    if (n <= 1)
+        return n;
+    return fib(n - 1) + fib(n - 2);
+}
+ 
+int main()
+{
+    int n = 9;
+    cout << fib(n);
+    getchar();
+    return 0;
+}
+//_____________________________________________________________
+
+// Method - 2:
+
 // Time complexity : O(n)
+
 #include<bits/stdc++.h>
 using namespace std;
  
@@ -24,9 +52,11 @@ int main()
     cout << fib(n);
     return 0;
 }
+//_____________________________________________________________________
 
-// Method 2:
-//________________________________________________
+
+// Method 3:
+//_____________________________________________________________________
 
 // Time complexity : O(logn)
 
