@@ -24,6 +24,21 @@ typedef unsigned long long ull;
 typedef long double lld;
 // typedef tree<pair<int, int>, null_type, less<pair<int, int>>, rb_tree_tag, tree_order_statistics_node_update > pbds; // find_by_order, order_of_key
 
+///============ CONSTANT ===============///
+#define mx18  1000000000000000000
+#define mx9   1000000007
+#define mx8   100000007
+#define mx7   10000006
+#define mx6   1000056
+#define mx5   200005
+#define mx4   10005
+#define inf   1<<30
+#define eps   1e-9
+#define mod   mx9
+ll dx[]= {1,0,-1,0};
+ll dy[]= {0,1,0,-1};
+long double PI = acosl(-1);
+
 #ifndef ONLINE_JUDGE
 #define debug(x) cerr << #x <<" "; _print(x); cerr << endl;
 #else
