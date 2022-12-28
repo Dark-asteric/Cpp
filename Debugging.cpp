@@ -45,6 +45,12 @@ long double PI = acosl(-1);
 #define debug(x)
 #endif
 
+#define bpcnt(x) __builtin_popcount(x)      // count the number of set bits
+#define bpcntll(x) __builtin_popcount(x)
+#define bpar(x) __builtin_parity(x)         // returns true(1) if the number has odd parity
+#define bparll(x) __builtin_parity(x)
+#define bclz(x) __builtin_clz(x)
+
 void _print(ll t) {cerr << t;}
 void _print(int t) {cerr << t;}
 void _print(string t) {cerr << t;}
